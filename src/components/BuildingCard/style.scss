@@ -1,0 +1,68 @@
+.machine-card {
+    border-radius: 5%;
+    text-align: -webkit-center;
+    overflow: hidden;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+    }
+
+    .img-container {
+        background: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: -50px;
+        position: relative;
+        width: 50%;
+
+        .machine-img {
+            max-width: 80%;
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+
+        .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                font-size: 3em;
+            }
+        }
+    }
+
+    .content-bg {
+        background-color: #15263f;
+        height: 70px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .machine-info {
+        display: flex;
+        flex-direction: column;
+        min-height: 50px;
+        background-color: #0564b3;
+        color: white;
+        align-items: center;
+        justify-content: center;
+
+        .name {
+            font-weight: 500;
+        }
+
+        .status {
+            color: rgb(50, 228, 50);
+        }
+    }
+}

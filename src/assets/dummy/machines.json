@@ -1,0 +1,130 @@
+[
+  {
+    "Id": "a845ce8d-2c62-49f2-92b1-57d6558aea04",
+    "DeviceName": "TC_MCNC000001",
+    "MachineType": "TC_MCNC",
+    "Label": "CNC001",
+    "Status": "Disconnect",
+    "Duration": 700
+  },
+  {
+    "Id": "4cc23d77-65d5-40d6-beb5-60bdaf413768",
+    "DeviceName": "TC_MCNC000002",
+    "MachineType": "TC_MCNC",
+    "Label": "CNC002",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "85669890-aff9-4f96-999d-ed92c6221c0b",
+    "DeviceName": "TC_MCNC000003",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 3",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "2b5e6821-80af-446e-bfde-c74697b4c7f9",
+    "DeviceName": "TC_MCNC000004",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 4",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "ec341ede-d2ee-4f34-8008-c5cb6b1bf7ee",
+    "DeviceName": "TC_MCNC000005",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 5",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "94e8c372-432f-4443-866d-32e7ba8a3c06",
+    "DeviceName": "TC_MCNC000006",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 6",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "1f8abf8e-6fee-4952-90bf-8738179e8111",
+    "DeviceName": "UB_MCNC000001",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 7",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "d3671fbb-8431-4d9d-8c1c-ddae004781ea",
+    "DeviceName": "UB_MCNC000002",
+    "MachineType": "UB_MCNC",
+    "Label": "CNC002",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "9a54ba62-8c01-4032-9062-52326742ae99",
+    "DeviceName": "UB_MCNC000003",
+    "MachineType": "UB_MCNC",
+    "Label": "CNC003",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "7ae82532-9303-4d9e-a5e3-0d69cc202f59",
+    "DeviceName": "UB_MCNC000004",
+    "MachineType": "UB_MCNC",
+    "Label": "CNC004",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "16242201-a94d-41e3-b3e2-1b9bf832912a",
+    "DeviceName": "UB_MCNC000005",
+    "MachineType": "UB_MCNC",
+    "Label": "CNC005",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "02684398-54ae-4e3f-8de5-eff250f36b8d",
+    "DeviceName": "UB_MCNC000006",
+    "MachineType": "UB_MCNC",
+    "Label": "CNC006",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "b38dc04c-58ea-450a-95e1-53635158d1a4",
+    "DeviceName": "UB_MCNC000007",
+    "MachineType": "TC_MCNC",
+    "Label": "Label 13",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "57da17eb-d9bf-40de-a67c-0f4142950b1d",
+    "DeviceName": "UB_MCNC000008",
+    "MachineType": "UB_MCNC",
+    "Label": "Label 14",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "c873f830-3094-4d4d-807a-49f045844496",
+    "DeviceName": "HN_MCNC000001",
+    "MachineType": "HN_MCNC",
+    "Label": "CNC001",
+    "Status": "Disconnect",
+    "Duration": 300
+  },
+  {
+    "Id": "c875f830-3094-4d4d-807a-49f048844496",
+    "DeviceName": "HN_MCNC000002",
+    "MachineType": "HN_MCNC",
+    "Label": "CNC002",
+    "Status": "Disconnect",
+    "Duration": 300
+  }
+]

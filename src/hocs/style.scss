@@ -1,0 +1,39 @@
+.alert-center {
+  background-color: #15263f;
+  height: calc(100vh - 76px);
+  top: -75px;
+  position: relative;
+  display: flow-root;
+  float: right;
+  width: fit-content;
+  max-width: 400px;
+
+  .notification-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14pt;
+    border-bottom: 1px solid #666666;
+  }
+
+  .notification-content {
+    overflow-y: auto;
+    max-height: calc(100vh - 130px);
+  }
+
+  .msg-loader {
+    margin-left: 35%;
+  }
+}
+
+.show-alert {
+  right: 0;
+  transition: 300ms all ease-out;
+}
+
+.hide-alert {
+  display: none;
+  transition: 300ms all ease-out;
+}

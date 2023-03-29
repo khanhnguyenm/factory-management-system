@@ -1,0 +1,36 @@
+
+.card-list {
+  max-width: calc(100% - 550px);
+}
+
+.top-action {
+  display: flex;
+  place-content: space-between;
+  .action-icon {
+    color: rgb(224, 224, 224);
+  }
+  
+}
+
+.total-devices {
+  border-radius: 2%;
+  background-color: #15263f;
+  min-height: 460px;
+
+  .title {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+.chart-active {
+  right: 0;
+  transition: 300ms all ease-in;
+}
+
+.chart-leave {
+  right: -100%;
+  display: block;
+  position: absolute;
+  transition: 300ms all ease-out;
+}

@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.app,
+.container {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #141b2d;
+}
+
+.container {
+  .main-content {
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 180px);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main-content {
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.machine-info {
+    .img-container {
+        background: white;
+        width: 200px;
+        min-height: 200px;
+        text-align: center;
+        border-radius: 10px;
+        padding-top: 5px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .machine-img {
+            max-width: 80%;
+
+        }
+    }
+}

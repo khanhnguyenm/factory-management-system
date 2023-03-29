@@ -1,0 +1,30 @@
+.view-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .label {
+        color: #fff;
+        line-height: 1.4375em;
+    }
+
+    .form-control {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+
+        .select-control {
+            margin-top: 0;
+
+            &::after {
+                display: none;
+            }
+
+            svg {
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.date-range {
+  max-width: 50%;
+  min-width: 400px;
+
+  input, label, select {
+    color: white;
+  }
+
+  fieldset {
+    border-color: #e0e0e0;
+  }
+
+  .MuiInputBase-root:hover {
+    border-color: white;
+  }
+
+  .datetime-range-picker {
+    .react-datetimerange-picker__wrapper {
+      padding: 5px;
+      border-radius: 5px;
+
+      .react-datetimerange-picker__range-divider {
+        width: 30px;
+        text-align-last: center;
+      }
+    }
+
+    svg {
+      stroke: white;
+    }
+
+    svg:hover {
+      stroke: rgb(16, 120, 189);
+    }
+  }
+}
+
+.machine-name {
+  text-align: center;
+}

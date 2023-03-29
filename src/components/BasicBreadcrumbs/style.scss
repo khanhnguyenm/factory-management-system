@@ -1,0 +1,17 @@
+.breadcrumbs {
+  padding: 5px;
+  border-bottom: 1px solid rgba(98, 93, 93, .21);
+  height: 24px;
+
+  .parrent {
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+  }
+  .MuiBreadcrumbs-separator {
+    color: rgb(224, 224, 224);
+  }
+  .active-page {
+    color: #6870fa;
+    user-select: none;
+  }
+}

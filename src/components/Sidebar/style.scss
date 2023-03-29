@@ -1,0 +1,17 @@
+.sidebar-container {
+  background-color: #1F2A40;
+
+  .pro-sidebar-layout:has(.logo) {
+    margin-top: 20px;
+  }
+  .pro-sidebar-layout:has(.full-logo) {
+    margin-top: 15px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+  .pro-menu {
+    margin-top: 35px;
+  }
+}
